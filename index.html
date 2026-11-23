@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>國共合作1.0｜封面 → 1905同盟會 → 1912國民黨</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/scene-1905.css">
+  <link rel="stylesheet" href="css/animations-1905.css">
+  <link rel="stylesheet" href="css/interface.css">
+  <link rel="stylesheet" href="css/scene-1912.css">
+  <link rel="stylesheet" href="css/animations-1912.css"></head><body>
+<div data-reveal="0" data-scene="cover" id="stage">
+<div class="l" id="paper"></div>
+<img alt="向左右延伸的握手背景" class="l" id="world" src="assets/backgrounds/handshake-panorama.webp"/>
+<div class="l" id="worldtint"></div>
+<img alt="國共合作 1.0" class="l" id="coverhead" src="assets/titles/cover-guogong-1-0.png"/>
+<div class="l" id="shade"></div>
+<div class="l" id="overview-ui">
+<button class="choice" id="choiceK" type="button">◀ 國民黨的發展<small>沿藍色手臂探索（1905起）</small></button>
+<button class="choice" disabled="" id="choiceC" title="共產黨一側尚未製作" type="button">共產黨的發展 ▶<small>後續製作</small></button>
+<div id="overview-sub">兩條政治道路，在1924年走向第一次合作</div>
+</div>
+<div class="l" id="history">
+<img alt="1905 同盟會成立" class="l intro" id="htitle" src="assets/titles/1905-tongmenghui.png"/>
+<img alt="象徵性的革命旗插畫，並非同盟會旗幟的原件" class="l intro" id="flag" src="assets/symbols/1905-revolutionary-flag-illustration.webp"/>
+<img alt="同盟會革命志士插畫群像" class="l intro" id="group" src="assets/characters/1905-revolutionaries-group.webp"/>
+<img alt="孫中山復古雕刻風插畫" class="l intro" id="sun" src="assets/characters/1905-sun-yat-sen.webp"/>
+<div class="intro" id="personlabel">孫中山 <span>｜革命領導者（插畫）</span></div>
+<img alt="同盟會文件冊插畫道具" class="l facts" id="booklet" src="assets/documents/1905-tongmenghui-booklet-prop.webp"/>
+<img alt="《民報》插畫道具，非史料原件" class="l facts" id="paperprop" src="assets/documents/1905-minbao-illustration-prop.webp"/>
+<div class="facts" id="infos">
+<div class="item"><span class="diamond">◆</span><span><strong>1905年</strong>，孫中山在<strong>日本東京</strong>聯合革命團體，成立中國同盟會。</span></div>
+<div class="item"><span class="diamond">◆</span><span><strong>革命綱領：</strong>驅除韃虜、恢復中華、創立民國、平均地權。</span></div>
+<div class="item"><span class="diamond">◆</span><span><strong>意義：</strong>整合革命力量，為日後推翻清朝奠下基礎。</span></div>
+</div>
+<!-- 史料位於解說文字下方；各自獨立、可點擊開啟來源 -->
+<div class="records" id="archives">
+<a class="doc" href="https://commons.wikimedia.org/wiki/File:%E6%B0%91%E5%A0%B1_01-07.pdf" id="archpaper" rel="noreferrer noopener" target="_blank" title="開啟真正《民報》原始掃描本">
+<div class="docimg"><img alt="《民報》插畫示意" src="assets/documents/1905-minbao-illustration-prop.webp"/></div>
+<div class="dcap">《民報》<small>插畫示意 · 點擊看原始掃描</small></div>
+</a>
+<a class="doc" href="https://commons.wikimedia.org/wiki/File:Sun_Yat_Sen_with_Ma_Junwu_1905.png" id="archphoto" rel="noreferrer noopener" target="_blank" title="開啟1905年孫中山與馬君武的真實合照">
+<div class="docimg"><img alt="1905年孫中山與馬君武合照" id="truephoto" onerror="this.style.display='none'" onload="document.getElementById('offlinecard').style.display='none'" referrerpolicy="no-referrer" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Sun_Yat_Sen_with_Ma_Junwu_1905.png"/><div id="offlinecard"><div><span style="font-size:39px;color:#7b5e42">▧</span><br/>1905年真實合照<br/><small>點擊查閱原始照片</small><br/><small>（需連線載入）</small></div></div></div>
+<div class="dcap">孫中山與馬君武<small>東京，1905年 · 真實照片</small></div>
+</a>
+</div>
+<div class="records" id="archive-note">插畫只作視覺輔助；原始史料可點擊查看來源</div>
+</div><div aria-label="1912國民黨成立" class="l" id="history1912">
+<img alt="1912 國民黨成立" class="l intro12" id="title1912" src="assets/titles/1912-guomindang.webp"/>
+<div class="l intro12" id="scene12left">
+<div id="hist12sunframe"><img alt="孫中山插畫" id="hist12sun" src="assets/characters/1912-sun-yat-sen.webp"/></div>
+<div id="hist12songframe"><img alt="宋教仁復古雕刻插畫" id="hist12song" src="assets/characters/1912-song-jiaoren.webp"/></div>
+<div class="name12" id="hist12sunlabel">孫中山<small>支持政黨改組</small></div>
+<div class="name12" id="hist12songlabel">宋教仁<small>推動政黨合併</small></div>
+</div>
+<div class="l facts12" id="hist12fusion"><span>同盟會</span><b>＋</b><span>其他四個政團</span><b>→</b><span class="final">國民黨</span></div>
+<div class="l facts12" id="hist12info">
+<div class="hist12item"><i>◆</i><span><strong>背景：</strong>辛亥革命後，中華民國成立，革命團體開始走向公開政黨政治。</span></div>
+<div class="hist12item"><i>◆</i><span><strong>經過：</strong>宋教仁推動同盟會聯合其他四個政團，<strong>1912年8月25日</strong>在北京成立國民黨。</span></div>
+<div class="hist12item"><i>◆</i><span><strong>宗旨：</strong>「鞏固共和，實行平民政治」，希望透過議會政治發揮影響力。</span></div>
+</div>
+<div class="l records12" id="hist12archives">
+<a class="archive12" href="https://commons.wikimedia.org/wiki/File:Sung_Chiao-jen.jpg" rel="noreferrer noopener" target="_blank" title="查看宋教仁歷史肖像來源">
+<div class="archive12pic"><img alt="宋教仁歷史照片" class="netphoto" loading="lazy" onerror="this.style.display='none'" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Sung_Chiao-jen.jpg"><div class="arch12offline"><span>原始歷史肖像</span><small>連線後載入 · 點按查看</small></div></img></div>
+<div class="arch12cap">宋教仁肖像<small>歷史照片｜Wikimedia Commons</small></div>
+</a>
+<a class="archive12" href="https://commons.wikimedia.org/wiki/File:Linshicanyiyuan.jpg" rel="noreferrer noopener" target="_blank" title="查看1912年南京臨時參議院合影原始來源">
+<div class="archive12pic"><img alt="1912年南京臨時參議院合影" class="netphoto" loading="lazy" onerror="this.style.display='none'" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Linshicanyiyuan.jpg"><div class="arch12offline"><span>1912年真實合照</span><small>連線後載入 · 點按查看</small></div></img></div>
+<div class="arch12cap">南京臨時參議院<small>1912年1月 · 議會政治背景，非國民黨成立大會</small></div>
+</a>
+</div>
+<div class="l records12" id="hist12smallnote">左側人物屬歷史風格插畫；下方兩張史料照片可按開啟原始來源</div>
+</div>
+<div id="timeline">
+<div class="track"></div><div class="t-items">
+<div class="t active"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1905</div><div class="lbl">同盟會</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1912</div><div class="lbl">國民黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1914</div><div class="lbl">中華革命黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1919</div><div class="lbl">中國國民黨</div></div>
+</div>
+</div>
+<div id="nav"><div id="scene-indicator">國共合作 1.0</div><button id="home" type="button">⌂ 返回封面</button><button aria-label="前頁" class="navbtn" id="prev" title="前頁" type="button">◀</button><button aria-label="後頁" class="navbtn" id="next" title="後頁" type="button">▶</button></div>
+</div>
+<script type="module" src="js/main.js"></script></body></html>

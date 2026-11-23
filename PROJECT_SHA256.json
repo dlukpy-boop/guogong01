@@ -1,0 +1,212 @@
+[
+  {
+    "path": "DEPLOY_HANDOFF.md",
+    "bytes": 1417,
+    "sha256": "9ab131ffba27ebcc9552de95fffd9e1fc618940bfcb6c08c3e9591a1a8ee918d"
+  },
+  {
+    "path": "PROGRESS.md",
+    "bytes": 1822,
+    "sha256": "5c09ca2e4baf4e715b4bbe0630f6fd6cd7e258c9b79b0a8eec425039a6487da4"
+  },
+  {
+    "path": "QA_REPORT.md",
+    "bytes": 4260,
+    "sha256": "0defd987d4a300ffc725ea0167ccd5ceb2ecf634cbf67ca08d2b496ddcc78b99"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4409,
+    "sha256": "b6be8dddce3284ba57563ebda6f30430488c66913f00d9aedc38e0ea6a8e3d93"
+  },
+  {
+    "path": "archive/latest-standalone-source.html",
+    "bytes": 2756248,
+    "sha256": "9252d40c864e4a57d9f15a0aef29a6ad9858a24f7c74f31b9fdd49b127bac33c"
+  },
+  {
+    "path": "archive/original-inline-script.js.txt",
+    "bytes": 1547,
+    "sha256": "7648b4b6b5d36e938c9bbef9c372922e6545218112cf727f2ab70d912adc40c6"
+  },
+  {
+    "path": "assets/MANIFEST.json",
+    "bytes": 3140,
+    "sha256": "3091260e117e5b9906aed8299e7808061da5026107901b1dbdb5e6a8df5d749f"
+  },
+  {
+    "path": "assets/audio/README.md",
+    "bytes": 124,
+    "sha256": "f527340d84a79aebeaf34c5370ee2d20738ee6db1d1e19076ea3b6e6b0920934"
+  },
+  {
+    "path": "assets/backgrounds/handshake-panorama.webp",
+    "bytes": 452620,
+    "sha256": "f828c9d23a5b30573551a087fed50a730f059c53297949613669a3e46c6fc2d3"
+  },
+  {
+    "path": "assets/characters/1905-revolutionaries-group.webp",
+    "bytes": 65590,
+    "sha256": "60b27942ec62dd9263a5ba11b6b4be00ecc31517840c21ad8030c37676783e36"
+  },
+  {
+    "path": "assets/characters/1905-sun-yat-sen.webp",
+    "bytes": 335422,
+    "sha256": "4146f27264416414ce060abfad4df3f4f3c4ce21ea79d94e99638d6964d4f74b"
+  },
+  {
+    "path": "assets/characters/1912-song-jiaoren.webp",
+    "bytes": 125090,
+    "sha256": "dd894138e4529ee987bd87192c49ad74ee5bb7399e416425b1da59fe0587f493"
+  },
+  {
+    "path": "assets/characters/1912-sun-yat-sen.webp",
+    "bytes": 106764,
+    "sha256": "f942951bf856caccc72c4d568b4e16777e1c3a1f05d7c62fda7bae7a376d7582"
+  },
+  {
+    "path": "assets/documents/1905-minbao-illustration-prop.webp",
+    "bytes": 78784,
+    "sha256": "bd9d0ee922f60e3276d9b26fb961477f054ed27acd0f9a005a479d3fe69f2f4a"
+  },
+  {
+    "path": "assets/documents/1905-tongmenghui-booklet-prop.webp",
+    "bytes": 44992,
+    "sha256": "b00eccd08c6cb8fae5f01806dd4524605bf49977ea924dc5676f77c887b3ba2d"
+  },
+  {
+    "path": "assets/source-originals/1905-booklet-original.png",
+    "bytes": 322805,
+    "sha256": "cac82b6f64bbdad4df9fec0983cc227c07499944216e709fcb29f1d85d62e4dd"
+  },
+  {
+    "path": "assets/source-originals/1905-flag-original.png",
+    "bytes": 473578,
+    "sha256": "0b0d8be291c809b8402339ecebec87cec8cb6347d7cbe7791cb9e7b5f6177fce"
+  },
+  {
+    "path": "assets/source-originals/1905-minbao-prop-original.png",
+    "bytes": 517258,
+    "sha256": "7ddbd5fbb50c0ec61dacf88641a52ce41a574834a2a3f449c25bb4c563c517de"
+  },
+  {
+    "path": "assets/source-originals/1905-revolutionaries-original.png",
+    "bytes": 321944,
+    "sha256": "8e9899b9f943a9a8aba262ef52c2827e2b961a86c63f4d26630daccec93079a5"
+  },
+  {
+    "path": "assets/source-originals/1905-title-original.png",
+    "bytes": 992612,
+    "sha256": "e85275d35166677feb5c4240056ea4897c8e812e2196f0d093f6cde430a08392"
+  },
+  {
+    "path": "assets/source-originals/1912-song-jiaoren-original-WIP.png",
+    "bytes": 2729296,
+    "sha256": "654b18f9a333aa66a27346d36de9fa24c2f8af11de6f3d3a53de1a70c0a81692"
+  },
+  {
+    "path": "assets/source-originals/1912-title-original-WIP.png",
+    "bytes": 284781,
+    "sha256": "2cc4afa899d6dbbed15c0f09424a54aba17f64477b7af3001b867efa09c5d7c8"
+  },
+  {
+    "path": "assets/source-originals/cover-title-original.png",
+    "bytes": 93646,
+    "sha256": "1c26ea769ada686b40cb61e36100c95d4edfa7589687cb73079caddc746a8da5"
+  },
+  {
+    "path": "assets/source-originals/handshake-panorama-original.png",
+    "bytes": 3085634,
+    "sha256": "127736fb25e4a24dfea77226919e4770b2342c863296c30d9871449aeac890fd"
+  },
+  {
+    "path": "assets/symbols/1905-revolutionary-flag-illustration.webp",
+    "bytes": 62716,
+    "sha256": "1ee38785e20cbfe06f9b495bd469a545c45e05fa42b4b88c595fe485dd7d5084"
+  },
+  {
+    "path": "assets/titles/1905-tongmenghui.png",
+    "bytes": 495149,
+    "sha256": "6b8fc443b1fcb03908db9fd21ec4ab38c6c995bdca45c456c6f2b5550f7f6d4f"
+  },
+  {
+    "path": "assets/titles/1912-guomindang.webp",
+    "bytes": 109536,
+    "sha256": "50af32e959785ca94ac345ad361c6e88179c3a1937e006b248855821ffb2d3a9"
+  },
+  {
+    "path": "assets/titles/cover-guogong-1-0.png",
+    "bytes": 92541,
+    "sha256": "2570e059fa0f022b8ab299c395eb5a75157052495af1abe32c4e7ca1892bc794"
+  },
+  {
+    "path": "content/approved-guomindang-notes.md",
+    "bytes": 1864,
+    "sha256": "f545d355ffa108af4842afcb7e79af66c739eac44edd1043b89a24b82320d1d8"
+  },
+  {
+    "path": "css/animations-1905.css",
+    "bytes": 804,
+    "sha256": "0e021002dfc967598e17f705b97461de84340b952daa7e6685688a8f5fe3c059"
+  },
+  {
+    "path": "css/animations-1912.css",
+    "bytes": 852,
+    "sha256": "5250d69ee7d17a5ebf6759d1eb40e09d20bbf2bd47a8758eaeb8151505f5bba3"
+  },
+  {
+    "path": "css/base.css",
+    "bytes": 2542,
+    "sha256": "e3b2f6c5f5a12e5d749c3bf3e69211552d4576aab06ee38b41eedd48c6829fc1"
+  },
+  {
+    "path": "css/interface.css",
+    "bytes": 1988,
+    "sha256": "deb59e5f1d4e558f9b85eaf1d508e7489c82da60ea5dda7686ddd14301fec335"
+  },
+  {
+    "path": "css/scene-1905.css",
+    "bytes": 2861,
+    "sha256": "fa9e0fba791c350b7e455f88f1a8d39f6da7d844b79fae3719a0e8916bf629bc"
+  },
+  {
+    "path": "css/scene-1912.css",
+    "bytes": 3674,
+    "sha256": "c083970f63e742dac8cbbd24a17a62713d26dcc7a8e97f1fe64697ff8544b464"
+  },
+  {
+    "path": "index.html",
+    "bytes": 11888,
+    "sha256": "5075c6d377c9a2d6d608eb01f763bf0935cb68e4d046e7cc5877dbac406b76d7"
+  },
+  {
+    "path": "js/main.js",
+    "bytes": 189,
+    "sha256": "326ea40da47333d56cbb245e45fa4efbe9691fd95c1402a293aad7e4e067e1ed"
+  },
+  {
+    "path": "js/navigation.js",
+    "bytes": 1619,
+    "sha256": "259b40134b28c0615b1d813b919d4a8e7dc120f326b5b46f6d9aa2cb427bf49e"
+  },
+  {
+    "path": "js/scene-config.js",
+    "bytes": 373,
+    "sha256": "dd71034e3dc930cefca86539fa9c9878d301e37bf26b5e2602398005773e3dee"
+  },
+  {
+    "path": "js/viewport.js",
+    "bytes": 294,
+    "sha256": "90ada2414201b96d3351321ef1a3f6f996f42563a15e86c896a9dcf9204a5505"
+  },
+  {
+    "path": "tools/__pycache__/check_assets.cpython-313.pyc",
+    "bytes": 1721,
+    "sha256": "af7a3890748cea60b2060c34cc4693f6a7db53fe5caf20d64cdf39c43e793895"
+  },
+  {
+    "path": "tools/check_assets.py",
+    "bytes": 768,
+    "sha256": "d2fd9d10b61ca9d4077a7fbfe95c320aa8168682aaec6e3c9c75a149ca80226b"
+  }
+]

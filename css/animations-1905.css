@@ -1,0 +1,8 @@
+#history .intro{opacity:0;transform:translateY(14px);transition:opacity .68s ease,transform .8s ease}
+#htitle.intro{opacity:1!important;transform:none!important}
+#stage[data-scene='history'][data-reveal='1'] .intro,#stage[data-scene='history'][data-reveal='2'] .intro,#stage[data-scene='history'][data-reveal='3'] .intro{opacity:1;transform:translateY(0)}
+#history .facts{opacity:0;transform:translateY(14px);transition:opacity .65s ease .12s,transform .75s ease}
+#stage[data-scene='history'][data-reveal='2'] .facts,#stage[data-scene='history'][data-reveal='3'] .facts{opacity:1;transform:translateY(0)}
+#history .records{opacity:0;transform:translateY(12px);transition:opacity .7s ease .15s,transform .7s ease}
+#stage[data-scene='history'][data-reveal='3'] .records{opacity:1;transform:translateY(0)}
+

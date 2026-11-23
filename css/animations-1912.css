@@ -1,0 +1,7 @@
+#history1912 .intro12{opacity:0;transform:translateY(15px);transition:opacity .68s ease,transform .7s ease}
+#title1912.intro12{opacity:1!important;transform:none!important}
+#stage[data-scene='history1912'][data-reveal='1'] .intro12,#stage[data-scene='history1912'][data-reveal='2'] .intro12,#stage[data-scene='history1912'][data-reveal='3'] .intro12{opacity:1;transform:translateY(0)}
+#history1912 .facts12{opacity:0;transform:translateY(13px);transition:opacity .65s ease,transform .7s ease}
+#stage[data-scene='history1912'][data-reveal='2'] .facts12,#stage[data-scene='history1912'][data-reveal='3'] .facts12{opacity:1;transform:translateY(0)}
+#history1912 .records12{opacity:0;transform:translateY(12px);transition:opacity .75s ease,transform .7s ease}
+#stage[data-scene='history1912'][data-reveal='3'] .records12{opacity:1;transform:translateY(0)}

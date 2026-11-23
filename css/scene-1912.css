@@ -1,0 +1,33 @@
+/* 1912 second chronological scene: single shared handshake world, no background replacement */
+#stage[data-scene='history1912'] #world{transform:translate(calc(-50% + 690px),-50%) scale(1.0);filter:blur(1.4px)}
+#stage[data-scene='history1912'] #worldtint{opacity:1}
+#stage[data-scene='history1912'] #coverhead{opacity:1;left:29px;top:24px;width:318px;transform:none}
+#stage[data-scene='history1912'] #timeline{opacity:1}
+#stage[data-scene='history1912'] #scene-indicator{display:none}
+#history1912{inset:0;z-index:7;opacity:0;pointer-events:none;transition:opacity .75s ease}
+#stage[data-scene='history1912'] #history1912{opacity:1;pointer-events:auto}
+#title1912{left:790px;top:16px;width:620px;height:154px;object-fit:contain}
+#scene12left{left:28px;top:177px;width:717px;height:552px}
+#hist12sunframe{position:absolute;left:0;top:14px;width:346px;height:484px;display:flex;align-items:flex-end;justify-content:center}
+#hist12sun{height:100%;width:100%;object-fit:contain;object-position:bottom center;filter:drop-shadow(5px 5px 4px #4b2b1b24)}
+#hist12songframe{position:absolute;left:328px;top:36px;width:322px;height:461px;display:flex;align-items:flex-end;justify-content:center}
+#hist12song{height:100%;width:100%;object-fit:contain;object-position:bottom center;filter:drop-shadow(5px 5px 4px #4b2b1b24)}
+.name12{position:absolute;min-width:170px;text-align:center;bottom:15px;background:#ead0a7e8;border:1px solid #976e44;color:#243c4f;font-size:21px;padding:5px 10px;box-shadow:2px 2px 0 #48322425}
+.name12 small{display:block;font-size:14px;color:#72553d;line-height:1.3}
+#hist12sunlabel{left:91px}#hist12songlabel{left:393px}
+#hist12fusion{left:47px;top:717px;display:flex;align-items:center;gap:7px;background:rgba(224,195,149,.88);padding:6px 12px;border-top:1px solid #9b744e;border-bottom:1px solid #9b744e;max-width:680px}
+#hist12fusion span{color:#364252;font-size:18px;white-space:nowrap}#hist12fusion b{color:#8b3b2b;font-size:22px}#hist12fusion .final{font-weight:bold;color:#6d3028}
+#hist12info{left:779px;top:191px;width:755px;padding:7px 20px 8px 13px;background:rgba(227,192,141,.28);border-left:2px solid rgba(106,74,40,.36)}
+.hist12item{display:flex;font-size:23px;line-height:1.42;margin:6px 0 12px;color:#372a20;gap:13px}
+.hist12item i{font-style:normal;color:#853a30;font-size:19px;padding-top:3px}
+#hist12archives{right:87px;top:480px;display:flex;gap:21px;align-items:flex-start}
+.archive12{width:291px;height:232px;padding:9px 9px 7px;box-sizing:border-box;background:rgba(237,206,158,.91);border:1px solid #9b7957;display:flex;flex-direction:column;align-items:center;text-decoration:none;color:#533d2a;box-shadow:5px 5px 0 #52331d33;transition:transform .25s ease}
+.archive12:hover{transform:translateY(-5px)}
+.archive12pic{position:relative;height:170px;width:100%;overflow:hidden;display:flex;align-items:center;justify-content:center;background:#d7b98b;border:1px solid #a5865e}
+.archive12pic img{position:absolute;inset:0;z-index:2;width:100%;height:100%;object-fit:cover;filter:grayscale(1) sepia(.21) contrast(1.08)}
+.arch12offline{position:absolute;inset:0;z-index:1;display:flex;align-items:center;justify-content:center;flex-direction:column;background:radial-gradient(circle at center,#ece0c7,#bfa17c);color:#5b4834;text-align:center;padding:8px}
+.arch12offline span{font-size:20px}.arch12offline small{font-size:13px;line-height:1.5;padding-top:10px}
+.archive12cap{font-size:16px;line-height:1.18;text-align:center;padding:7px 1px 0;max-width:100%;color:#523e2d}
+.archive12cap small{font-size:12px;color:#715943;display:block;line-height:1.15;margin-top:3px}
+#hist12smallnote{right:90px;top:725px;font-size:13px;color:#705540}
+

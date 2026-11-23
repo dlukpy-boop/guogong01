@@ -1,0 +1,105 @@
+{
+  "source_file": "國共合作1.0_國民黨沿革_至1912互動簡報.html",
+  "extraction": "byte-for-byte embedded image extraction, no recompression",
+  "assets": [
+    {
+      "path": "assets/backgrounds/handshake-panorama.webp",
+      "type": "webp",
+      "width": 3072,
+      "height": 861,
+      "transparent": false,
+      "bytes": 452620,
+      "sha256": "f828c9d23a5b30573551a087fed50a730f059c53297949613669a3e46c6fc2d3"
+    },
+    {
+      "path": "assets/titles/cover-guogong-1-0.png",
+      "type": "png",
+      "width": 918,
+      "height": 210,
+      "transparent": true,
+      "bytes": 92541,
+      "sha256": "2570e059fa0f022b8ab299c395eb5a75157052495af1abe32c4e7ca1892bc794"
+    },
+    {
+      "path": "assets/titles/1905-tongmenghui.png",
+      "type": "png",
+      "width": 1500,
+      "height": 500,
+      "transparent": true,
+      "bytes": 495149,
+      "sha256": "6b8fc443b1fcb03908db9fd21ec4ab38c6c995bdca45c456c6f2b5550f7f6d4f"
+    },
+    {
+      "path": "assets/symbols/1905-revolutionary-flag-illustration.webp",
+      "type": "webp",
+      "width": 507,
+      "height": 442,
+      "transparent": true,
+      "bytes": 62716,
+      "sha256": "1ee38785e20cbfe06f9b495bd469a545c45e05fa42b4b88c595fe485dd7d5084"
+    },
+    {
+      "path": "assets/characters/1905-revolutionaries-group.webp",
+      "type": "webp",
+      "width": 758,
+      "height": 315,
+      "transparent": true,
+      "bytes": 65590,
+      "sha256": "60b27942ec62dd9263a5ba11b6b4be00ecc31517840c21ad8030c37676783e36"
+    },
+    {
+      "path": "assets/characters/1905-sun-yat-sen.webp",
+      "type": "webp",
+      "width": 1100,
+      "height": 1031,
+      "transparent": true,
+      "bytes": 335422,
+      "sha256": "4146f27264416414ce060abfad4df3f4f3c4ce21ea79d94e99638d6964d4f74b"
+    },
+    {
+      "path": "assets/documents/1905-tongmenghui-booklet-prop.webp",
+      "type": "webp",
+      "width": 341,
+      "height": 422,
+      "transparent": true,
+      "bytes": 44992,
+      "sha256": "b00eccd08c6cb8fae5f01806dd4524605bf49977ea924dc5676f77c887b3ba2d"
+    },
+    {
+      "path": "assets/documents/1905-minbao-illustration-prop.webp",
+      "type": "webp",
+      "width": 421,
+      "height": 524,
+      "transparent": true,
+      "bytes": 78784,
+      "sha256": "bd9d0ee922f60e3276d9b26fb961477f054ed27acd0f9a005a479d3fe69f2f4a"
+    },
+    {
+      "path": "assets/titles/1912-guomindang.webp",
+      "type": "webp",
+      "width": 1450,
+      "height": 483,
+      "transparent": true,
+      "bytes": 109536,
+      "sha256": "50af32e959785ca94ac345ad361c6e88179c3a1937e006b248855821ffb2d3a9"
+    },
+    {
+      "path": "assets/characters/1912-sun-yat-sen.webp",
+      "type": "webp",
+      "width": 625,
+      "height": 586,
+      "transparent": true,
+      "bytes": 106764,
+      "sha256": "f942951bf856caccc72c4d568b4e16777e1c3a1f05d7c62fda7bae7a376d7582"
+    },
+    {
+      "path": "assets/characters/1912-song-jiaoren.webp",
+      "type": "webp",
+      "width": 555,
+      "height": 740,
+      "transparent": true,
+      "bytes": 125090,
+      "sha256": "dd894138e4529ee987bd87192c49ad74ee5bb7399e416425b1da59fe0587f493"
+    }
+  ]
+}
