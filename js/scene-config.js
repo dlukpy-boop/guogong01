@@ -1,5 +1,4 @@
-// Existing scene sequence from the latest source HTML.
-// 1914 and 1919 are visible timeline placeholders, NOT working scenes.
+// 與舊版相同的封面、1905、1912狀態原樣保留；後續場景按資料驅動。
 export const STEPS = [
   { s: 'cover', r: 0 },
   { s: 'overview', r: 0 },
@@ -9,4 +8,32 @@ export const STEPS = [
   { s: 'history1912', r: 1 },
   { s: 'history1912', r: 2 },
   { s: 'history1912', r: 3 },
+  { s: 'exp', id: 'k1914', side: 'k', r: 1 },
+  { s: 'exp', id: 'k1914', side: 'k', r: 2 },
+  { s: 'exp', id: 'k1919', side: 'k', r: 1 },
+  { s: 'exp', id: 'k1919', side: 'k', r: 2 },
+  { s: 'exp', id: 'k-question', side: 'bridge', r: 1 },
+  { s: 'exp', id: 'c1917', side: 'c', r: 1 },
+  { s: 'exp', id: 'c1917', side: 'c', r: 2 },
+  { s: 'exp', id: 'c1919', side: 'c', r: 1 },
+  { s: 'exp', id: 'c1919', side: 'c', r: 2 },
+  { s: 'exp', id: 'c1920', side: 'c', r: 1 },
+  { s: 'exp', id: 'c1920', side: 'c', r: 2 },
+  { s: 'exp', id: 'c1921', side: 'c', r: 1 },
+  { s: 'exp', id: 'c1921', side: 'c', r: 2 },
+  { s: 'exp', id: 'need-join', side: 'join', r: 1 },
+  { s: 'exp', id: 'need-join', side: 'join', r: 2 },
+  { s: 'exp', id: 'sun-joffe', side: 'join', r: 1 },
+  { s: 'exp', id: 'sun-joffe', side: 'join', r: 2 },
+  { s: 'exp', id: 'kmt-congress', side: 'join', r: 1 },
+  { s: 'exp', id: 'kmt-congress', side: 'join', r: 2 },
+  { s: 'exp', id: 'whampoa', side: 'join', r: 1 },
+  { s: 'exp', id: 'whampoa', side: 'join', r: 2 },
+  { s: 'exp', id: 'north26', side: 'north', r: 1 },
+  { s: 'exp', id: 'north-win', side: 'north', r: 1 },
+  { s: 'exp', id: 'north-split', side: 'north', r: 1 },
+  { s: 'exp', id: 'north-resume', side: 'north', r: 1 },
+  { s: 'exp', id: 'northeast', side: 'north', r: 1 },
+  { s: 'exp', id: 'unification', side: 'north', r: 1 },
+  { s: 'exp', id: 'closing', side: 'join', r: 1 }
 ];

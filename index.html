@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 
-<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>國共合作1.0｜封面 → 1905同盟會 → 1912國民黨</title>
+<html lang="zh-Hant"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>國共合作1.0｜國民黨・共產黨・第一次合作・北伐</title>
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/scene-1905.css">
   <link rel="stylesheet" href="css/animations-1905.css">
   <link rel="stylesheet" href="css/interface.css">
   <link rel="stylesheet" href="css/scene-1912.css">
-  <link rel="stylesheet" href="css/animations-1912.css"></head><body>
+  <link rel="stylesheet" href="css/animations-1912.css">
+<link rel="stylesheet" href="css/scene-expansion.css"></head><body>
 <div data-reveal="0" data-scene="cover" id="stage">
 <div class="l" id="paper"></div>
 <img alt="向左右延伸的握手背景" class="l" id="world" src="assets/backgrounds/handshake-panorama.webp"/>
@@ -15,7 +16,7 @@
 <div class="l" id="shade"></div>
 <div class="l" id="overview-ui">
 <button class="choice" id="choiceK" type="button">◀ 國民黨的發展<small>沿藍色手臂探索（1905起）</small></button>
-<button class="choice" disabled="" id="choiceC" title="共產黨一側尚未製作" type="button">共產黨的發展 ▶<small>後續製作</small></button>
+<button class="choice" id="choiceC" type="button">共產黨的發展 ▶<small>沿紅色手臂探索（1917起）</small></button>
 <div id="overview-sub">兩條政治道路，在1924年走向第一次合作</div>
 </div>
 <div class="l" id="history">
@@ -69,6 +70,7 @@
 </div>
 <div class="l records12" id="hist12smallnote">左側人物屬歷史風格插畫；下方兩張史料照片可按開啟原始來源</div>
 </div>
+<div id="expansion" aria-hidden="true"></div>
 <div id="timeline">
 <div class="track"></div><div class="t-items">
 <div class="t active"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1905</div><div class="lbl">同盟會</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1912</div><div class="lbl">國民黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1914</div><div class="lbl">中華革命黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1919</div><div class="lbl">中國國民黨</div></div>
