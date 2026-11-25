@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/interface.css">
   <link rel="stylesheet" href="css/scene-1912.css">
   <link rel="stylesheet" href="css/animations-1912.css">
-<link rel="stylesheet" href="css/scene-expansion.css"></head><body>
+<link rel="stylesheet" href="css/scene-expansion.css"><link rel="stylesheet" href="css/historical-media.css"></head><body>
 <div data-reveal="0" data-scene="cover" id="stage">
 <div class="l" id="paper"></div>
 <img alt="向左右延伸的握手背景" class="l" id="world" src="assets/backgrounds/handshake-panorama.webp"/>
@@ -71,6 +71,32 @@
 <div class="l records12" id="hist12smallnote">左側人物屬歷史風格插畫；下方兩張史料照片可按開啟原始來源</div>
 </div>
 <div id="expansion" aria-hidden="true"></div>
+<section id="north-map-stage" aria-label="北伐戰爭形勢：同一幅地圖逐步演變">
+ <div class="north-map-window">
+ <div class="north-map-art">
+ <svg class="north-map-svg" viewBox="0 0 1039 1475" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="北伐地圖，廣州、長沙、武昌、南昌、南京、北京及東北">
+ <image href="assets/historical/beifa-basemap-clean.png" x="0" y="0" width="1039" height="1475"/>
+ <g class="north-route" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path class="north-path start" d="M380 1265 Q338 1160 375 870 Q407 820 438 780" />
+  <path class="north-path advance" d="M438 780 Q470 840 515 985 Q574 870 650 776 Q680 770 710 806" />
+  <path class="north-path beijing" d="M650 776 Q570 600 475 340" />
+ </g>
+ <g class="north-city" font-size="38" font-weight="700" font-family="'Songti TC','Noto Serif CJK TC',serif" stroke="#f5e9d8" stroke-width="7" paint-order="stroke" fill="#3c3028">
+ <circle cx="380" cy="1265" r="9" fill="#893a2b" stroke="#fff0d5" stroke-width="4"/><text x="401" y="1282">廣州</text>
+ <circle class="north-intermediate" cx="375" cy="870" r="8" fill="#a95b40" stroke="#fff0d5" stroke-width="4"/><text class="north-intermediate" x="396" y="889">長沙</text>
+ <circle class="north-intermediate" cx="438" cy="780" r="8" fill="#a95b40" stroke="#fff0d5" stroke-width="4"/><text class="north-intermediate" x="456" y="761">武昌</text>
+ <circle class="north-intermediate" cx="515" cy="985" r="8" fill="#a95b40" stroke="#fff0d5" stroke-width="4"/><text class="north-intermediate" x="534" y="1005">南昌</text>
+ <circle class="north-later" cx="650" cy="776" r="8" fill="#a95b40" stroke="#fff0d5" stroke-width="4"/><text class="north-later" x="670" y="756">南京</text>
+ <circle class="north-later" cx="710" cy="806" r="8" fill="#a95b40" stroke="#fff0d5" stroke-width="4"/><text class="north-later" x="730" y="828">上海</text>
+ <circle class="north-beijing" cx="475" cy="340" r="12" fill="#87382b" stroke="#fff0d5" stroke-width="5"/><text class="north-beijing" x="497" y="322">北京</text>
+ <circle class="north-northeast" cx="760" cy="230" r="14" fill="#a48a4d" stroke="#fff0d5" stroke-width="5"/><text class="north-northeast" x="776" y="224">東北</text>
+ </g>
+ </svg>
+ </div>
+ <div class="north-map-note">北伐進軍示意・同一地圖連續演變</div>
+ <div class="north-map-shift">1928年底　張學良東北易幟</div>
+ </div>
+</section>
 <div id="timeline">
 <div class="track"></div><div class="t-items">
 <div class="t active"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1905</div><div class="lbl">同盟會</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1912</div><div class="lbl">國民黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1914</div><div class="lbl">中華革命黨</div></div><div class="t"><svg aria-hidden="true" class="seal" viewbox="0 0 100 100"><circle cx="50" cy="50" fill="#1d3d59" r="46" stroke="#bba06d" stroke-width="5"></circle><circle cx="50" cy="50" fill="none" r="39" stroke="#edd6aa" stroke-width="1.5"></circle><g fill="#f5e9d7"><path d="M50.00 16.00 L47.29 34.23 L52.71 34.23 Z"></path><path d="M67.00 20.56 L55.54 34.99 L60.23 37.70 Z"></path><path d="M79.44 33.00 L62.30 39.77 L65.01 44.46 Z"></path><path d="M84.00 50.00 L65.77 47.29 L65.77 52.71 Z"></path><path d="M79.44 67.00 L65.01 55.54 L62.30 60.23 Z"></path><path d="M67.00 79.44 L60.23 62.30 L55.54 65.01 Z"></path><path d="M50.00 84.00 L52.71 65.77 L47.29 65.77 Z"></path><path d="M33.00 79.44 L44.46 65.01 L39.77 62.30 Z"></path><path d="M20.56 67.00 L37.70 60.23 L34.99 55.54 Z"></path><path d="M16.00 50.00 L34.23 52.71 L34.23 47.29 Z"></path><path d="M20.56 33.00 L34.99 44.46 L37.70 39.77 Z"></path><path d="M33.00 20.56 L39.77 37.70 L44.46 34.99 Z"></path><circle cx="50" cy="50" r="17"></circle></g></svg><div class="date">1919</div><div class="lbl">中國國民黨</div></div>
@@ -78,4 +104,6 @@
 </div>
 <div id="nav"><div id="scene-indicator">國共合作 1.0</div><button id="home" type="button">⌂ 返回封面</button><button aria-label="前頁" class="navbtn" id="prev" title="前頁" type="button">◀</button><button aria-label="後頁" class="navbtn" id="next" title="後頁" type="button">▶</button></div>
 </div>
-<script type="module" src="js/main.js"></script></body></html>
+<script type="module" src="js/main.js"></script><div id="photo-modal" class="photo-modal" hidden role="dialog" aria-modal="true" aria-label="歷史史料圖片放大檢視">
+ <button type="button" class="photo-modal-close" aria-label="關閉圖片">×</button><div class="photo-modal-inner"><img alt=""/><div class="photo-modal-title"></div><div class="photo-modal-credit"></div></div>
+</div></body></html>

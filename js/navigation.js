@@ -8,6 +8,7 @@ export function initNavigation(stage) {
   const cStart=entryIndexById('c1917',STEPS);
   let ix=0;
   function go(n){
+    stage.scrollLeft=0;stage.scrollTop=0;
     ix=Math.max(0,Math.min(STEPS.length-1,n));
     const x=STEPS[ix];
     stage.dataset.scene=x.s;

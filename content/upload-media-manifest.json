@@ -1,0 +1,200 @@
+[
+  {
+    "path": "index.html",
+    "size": 14816,
+    "sha256": "273238ad9c909d7137def2170bff3f81935e5ef9bc1dfcfdf52906b45c8ac1f3",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "css/historical-media.css",
+    "size": 8229,
+    "sha256": "9c0795deb4b760b947644ada70c5812c147c0597625a1be2d86791cb94ab281c",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "js/main.js",
+    "size": 257,
+    "sha256": "95ac8cb02c4d906b7270228871206974986fd335187e6097bca2666354600f4b",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "js/navigation.js",
+    "size": 2742,
+    "sha256": "b28c7dee6b09bd5eaa7933960b678e37d2f46cdb867fc17fda1319f48a439675",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "js/expansion.js",
+    "size": 7757,
+    "sha256": "8bf3e330c9d258f769d8980fa68b52a15db6e879a93f027f7da62d113181938c",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "js/historical-media.js",
+    "size": 4363,
+    "sha256": "366ad8415b9944de01cc971959e887b168a87d1bb4636b80db740052f924831f",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "content/historical-media-provenance.md",
+    "size": 978,
+    "sha256": "f305bcf850c3684546c69e4a290c969097af633d8c4495733ee844a966bf7c1b",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "README.md",
+    "size": 8015,
+    "sha256": "394992fba055a7308d603cf539541de9bd1588416487dc42c21d2b0190e31ea3",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "PROGRESS.md",
+    "size": 1669,
+    "sha256": "944160a19f55435dd1d6116212a014f3fe863a931aba6404bddbd8f709d61f28",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "QA_REPORT.md",
+    "size": 2465,
+    "sha256": "8e4dabe7f248a343af2252904b054b95ff1b913268b6542970976d9a514e6a0d",
+    "encoding": "utf-8"
+  },
+  {
+    "path": "assets/historical/northern-expedition-oil-painting.jpeg",
+    "size": 76017,
+    "sha256": "f2280d1fb6ae8ea3879386b8f37bd92d2fc0eabc0de1d4f753d5ccddd67fb189",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1917-russian-revolution-painting.jpeg",
+    "size": 186135,
+    "sha256": "76a922109bd9c8eef2e65bd10569d51815ea8d6278ecdee48d70fd172322a4b5",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/pdf12-whampoa-ceremony.png",
+    "size": 677602,
+    "sha256": "6213762212e73b3800cd760f062f915e104ad2bda31f65a149f3d24fd3a38297",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/k1914-party-document.JPG",
+    "size": 375926,
+    "sha256": "811ea9235bda130fe6cf5e0ccc0db81ba54e0cb1d8ea13cf59d96a2d1a08712d",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/pdf13-whampoa-entrance.png",
+    "size": 1655275,
+    "sha256": "6546b562eb791be25d11f5de9345b5d563d277f55c317a16ec6c32aeb0b6a0b2",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/kmt-congress-hall-original.png",
+    "size": 75224,
+    "sha256": "3a2b97c912ecb74e9daf5cd6f3ac385319670460ae86c9f77899da7ba7516438",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/beifa-basemap-clean.png",
+    "size": 274522,
+    "sha256": "4b47291cff3b406c01708f09748306e48f4b5dabe3ba512707daf152a883384c",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/sun-joffe-soviet-envoy.jpeg",
+    "size": 141664,
+    "sha256": "0226e6ca094db8a18df12fc777cd0f824105aff7858eaca27ed8c5e3a8420b9d",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1921-ccp-congress-site.jpg",
+    "size": 68717,
+    "sha256": "9807903b59f95c517bd1edd321d88d9704a7e69d96eb8b73557a1f106481080f",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/kmt-sun-yat-sen.jpeg",
+    "size": 35692,
+    "sha256": "5ccb4e381d5451a1a1ae587e559e5a8f0407e0674b74aec09e249e4aa13dab83",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/whampoa-academy-history-painting.jpeg",
+    "size": 90413,
+    "sha256": "f469506bb98b982fd2aebc667bad44dfca7269f263c759ca312a47ee21d75c48",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1919-chen-duxiu.jpeg",
+    "size": 87111,
+    "sha256": "53995bc8a68c3d20fca3468e1d97969032df03c236011c683e32fc46de71f4df",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/northeast-zhang-xueliang.jpeg",
+    "size": 120670,
+    "sha256": "8f99ff7fea47a813ca7d0730523a2f80833bb53f0003cb77827f0acdf82f2893",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/pdf10-1924-kmt-congress.png",
+    "size": 1035047,
+    "sha256": "555174c8ab57769a0c41a5451194c155ce97e71d34d3065078f08423b857d85a",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/pdf16-northern-expedition-publisher-map.png",
+    "size": 440284,
+    "sha256": "b5d631ca8b3434c791b7420365be5d4a42554a19a6e4865facf35447428feffc",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/northeast-reflagging-history.jpeg",
+    "size": 18126,
+    "sha256": "de0ab75089254f424f9d576275fa023a51be3cbb9995bb59f2b218796ec36b1d",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/north-sun-chuanfang.jpeg",
+    "size": 38895,
+    "sha256": "6bdc80c41147b296996b88fb422f39cb3f8a11d9395849a1acbd85fed05d9f1c",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1919-li-dazhao.jpeg",
+    "size": 92674,
+    "sha256": "78b004d033b4a10d2c85782a403eaac30d50f3aba3a317440187ad8ddfd414a5",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/pdf03-group-photo-unverified.png",
+    "size": 1547193,
+    "sha256": "d88aae9a2f2e1634ee8217dc044376967ae18a7eb2d722589f0a8e4165b47c18",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/sun-joffe-historical-painting.jpeg",
+    "size": 99678,
+    "sha256": "ed8c968eb303da41504de99e3c9dfddee6d5adc04767be322e6f66d054be59dc",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1921-chen-duxiu-portrait.jpg",
+    "size": 163448,
+    "sha256": "0ec82693bc4a174312a68233910daf422d4f529356dd87bdae3542622358edc8",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/north-wu-peifu.jpeg",
+    "size": 37932,
+    "sha256": "42d2e75c0b6114bd80a50e404e1fe3a68964d3dab264eeec20dc5f83d4289737",
+    "encoding": "base64"
+  },
+  {
+    "path": "assets/historical/c1920-founders-group.jpeg",
+    "size": 28802,
+    "sha256": "50a8131ea86e551432e939db11bbf33427ea7ae95ad4382844a1fcf265d2da21",
+    "encoding": "base64"
+  }
+]

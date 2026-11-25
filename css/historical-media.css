@@ -1,0 +1,67 @@
+/* Embedded historical teaching images. These are original PPT/PDF captures, not generated replacements. */
+#stage[data-scene="exp"] #history,#stage[data-scene="exp"] #history1912{opacity:0!important;visibility:hidden!important;pointer-events:none!important;}
+#stage[data-scene="exp"] #timeline{opacity:0;visibility:hidden;pointer-events:none;}
+#stage[data-scene="exp"][data-branch="k"] #timeline{opacity:1;visibility:visible;}
+/* Return to the approved 1905/1912 navigation controls, shared across all scenes. */
+#nav #prev,#nav #next{bottom:23px;min-width:66px;width:66px;height:61px;padding:2px 0 8px;font:700 34px/1 'Songti TC','Noto Serif TC',serif;color:#362820;background:#efcf9d;border:3px double #533b25;border-radius:3px;clip-path:polygon(8% 0,92% 0,100% 24%,100% 76%,92% 100%,8% 100%,0 76%,0 24%);box-shadow:0 4px 0 #543e2c44;transition:background .18s,transform .18s;}
+#nav #prev:hover:not(:disabled),#nav #next:hover:not(:disabled){background:#f8dcae;transform:translateY(-2px)}
+#nav #prev:focus-visible,#nav #next:focus-visible{outline:4px solid #8d4938;outline-offset:3px}
+.gg-media-ribbon{display:flex;justify-content:space-between;align-items:center;font-size:18px;color:#694a32;padding:2px 4px 15px;border-bottom:1px solid #a8835d;letter-spacing:.06em;}
+.gg-media-ribbon span:first-child{font-size:24px;font-weight:700;color:#513a2b;}
+.gg-media-ribbon span:last-child{font-size:14px;color:#80634a;}
+.gg-media-set{display:grid;gap:14px;margin-top:17px;height:360px;}
+.gg-media-set.gg-one{grid-template-columns:1fr;}
+.gg-media-set.gg-two{grid-template-columns:repeat(2,minmax(0,1fr));}
+.gg-media-item{min-width:0;min-height:0;border:1px solid #9a7957;padding:9px;background:rgba(239,222,189,.83);box-shadow:3px 4px 0 rgba(94,59,33,.2);display:flex;flex-direction:column;cursor:zoom-in;color:#4e3829;font-family:inherit;text-align:center;transition:transform .22s ease,box-shadow .22s ease;}
+.gg-media-item:hover,.gg-media-item:focus-visible{transform:translateY(-5px);box-shadow:5px 8px 0 rgba(94,59,33,.2);}
+.gg-media-photo{min-height:0;flex:1;display:flex;align-items:center;justify-content:center;overflow:hidden;background:linear-gradient(130deg,#f7eedf,#d7bf9b);}
+.gg-media-photo img{width:100%;height:100%;object-fit:contain;filter:sepia(.15) saturate(.74);}
+.gg-media-cap{flex:none;padding:10px 0 4px;display:grid;gap:4px;}
+.gg-media-cap strong{font-size:18px;line-height:1.18;}
+.gg-media-cap small{font-size:13px;line-height:1.25;color:#846b50;}
+#stage[data-scene="exp"] .gg-left:has(.gg-media-set){padding:20px 23px 10px;}
+/* Historic map. The same exact base map remains mounted while the camera pans. */
+#north-map-stage{position:absolute;left:74px;top:236px;width:640px;height:486px;z-index:9;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .55s ease;}
+#stage[data-scene="exp"][data-branch="north"] #north-map-stage{opacity:1;visibility:visible;}
+#stage[data-scene="exp"][data-branch="north"] .gg-left{opacity:0;visibility:hidden;pointer-events:none;}
+#stage[data-scene="exp"][data-branch="north"] .gg-right{left:760px;top:226px;width:732px;}
+.north-map-window{height:100%;width:100%;position:relative;overflow:hidden;background:#f6ebd7;border:2px solid #8e765a;box-shadow:7px 9px 0 #4b362a24;}
+.north-map-art{position:absolute;left:17px;top:-260px;width:601px;height:853px;transition:top 1.25s cubic-bezier(.2,.76,.22,1),transform 1.25s ease;}
+.north-map-svg{width:100%;height:100%;display:block;}
+.north-path{stroke:#ac5139;stroke-width:13;stroke-dasharray:1200;stroke-dashoffset:1200;opacity:.94;transition:stroke-dashoffset 1.3s ease;filter:drop-shadow(0 2px 1px #59382266);}
+.north-path.beijing{stroke:#405369;}
+.north-city .north-intermediate,.north-city .north-later,.north-city .north-beijing,.north-city .north-northeast{opacity:0;transition:opacity .6s ease;}
+.north-map-note,.north-map-shift{position:absolute;left:14px;bottom:12px;background:#f1d3a6eb;border:1px solid #8e6b4c;color:#634a34;padding:7px 12px;font-size:16px;pointer-events:none;}
+.north-map-shift{opacity:0;left:auto;right:15px;bottom:auto;top:18px;background:#d6c199ee;font-weight:700;border:2px solid #9a7553;transition:opacity .6s ease;}
+#stage[data-north-key="north26"] .north-path.start,#stage[data-north-key="north-win"] .north-path.start,#stage[data-north-key="north-split"] .north-path.start,#stage[data-north-key="north-resume"] .north-path.start,#stage[data-north-key="northeast"] .north-path.start,#stage[data-north-key="unification"] .north-path.start{stroke-dashoffset:0;}
+#stage[data-north-key="north-win"] .north-path.advance,#stage[data-north-key="north-split"] .north-path.advance,#stage[data-north-key="north-resume"] .north-path.advance,#stage[data-north-key="northeast"] .north-path.advance,#stage[data-north-key="unification"] .north-path.advance{stroke-dashoffset:0;}
+#stage[data-north-key="north-resume"] .north-path.beijing,#stage[data-north-key="northeast"] .north-path.beijing,#stage[data-north-key="unification"] .north-path.beijing{stroke-dashoffset:0;}
+#stage[data-north-key="north-win"] .north-intermediate,#stage[data-north-key="north-split"] .north-intermediate,#stage[data-north-key="north-resume"] .north-intermediate,#stage[data-north-key="northeast"] .north-intermediate,#stage[data-north-key="unification"] .north-intermediate{opacity:1;}
+#stage[data-north-key="north-win"] .north-later,#stage[data-north-key="north-split"] .north-later,#stage[data-north-key="north-resume"] .north-later,#stage[data-north-key="northeast"] .north-later,#stage[data-north-key="unification"] .north-later{opacity:1;}
+#stage[data-north-key="north-resume"] .north-beijing,#stage[data-north-key="northeast"] .north-beijing,#stage[data-north-key="unification"] .north-beijing{opacity:1;}
+#stage[data-north-key="northeast"] .north-northeast,#stage[data-north-key="unification"] .north-northeast{opacity:1;}
+#stage[data-north-key="north-win"] .north-map-art,#stage[data-north-key="north-split"] .north-map-art{top:-205px;}
+#stage[data-north-key="north-resume"] .north-map-art,#stage[data-north-key="northeast"] .north-map-art,#stage[data-north-key="unification"] .north-map-art{top:-28px;}
+#stage[data-north-key="northeast"] .north-map-shift,#stage[data-north-key="unification"] .north-map-shift{opacity:1;}
+/* lightbox is outside scaled stage for natural viewing */
+.photo-modal{position:fixed;inset:0;z-index:999;background:rgba(29,22,17,.91);display:flex;align-items:center;justify-content:center;padding:32px;font-family:'Noto Serif TC','Songti TC',serif;}
+.photo-modal[hidden]{display:none;}
+.photo-modal-inner{display:flex;flex-direction:column;align-items:center;gap:10px;max-height:calc(100vh - 50px);min-width:0;}
+.photo-modal img{max-height:76vh;max-width:88vw;object-fit:contain;border:10px solid #dbc49b;background:#eedbc0;box-shadow:0 6px 30px #000b;}
+.photo-modal-title{font-size:23px;color:#f3dfbf;text-align:center;}
+.photo-modal-credit{font-size:15px;color:#d4bea1;text-align:center;}
+.photo-modal-close{position:absolute;top:18px;right:28px;cursor:pointer;color:#ecd6b5;background:none;border:1px solid #c2a078;font-size:42px;width:60px;height:60px;}
+@media(prefers-reduced-motion:reduce){.north-path,.north-map-art{transition:none}}
+/* Critical navigation fix: overflow:hidden made #stage a scroll container.
+   Browsers auto-scrolled the entire slide when focusing/clicking navigation,
+   clipping the left half and revealing raw background on the right. */
+#stage{overflow:clip;}
+
+.north-map-shift{top:auto;bottom:54px;right:11px;font-size:13px;max-width:240px;}
+.gg-north-source{border:1px solid #9b7857;background:#ead1a9de;display:flex;align-items:center;gap:14px;min-height:95px;width:100%;padding:8px 13px;margin-top:16px;color:#4b3425;font-family:inherit;text-align:left;cursor:zoom-in;box-shadow:3px 3px 0 #49311c22;transition:transform .2s ease;}
+.gg-north-source:hover{transform:translateY(-3px);}
+.gg-north-source img{width:145px;height:87px;object-fit:contain;filter:grayscale(.3) sepia(.25);background:#f6ebd8;}
+.gg-north-source span{display:flex;flex-direction:column;gap:4px;}
+.gg-north-source strong{font-size:18px;line-height:1.25;}
+.gg-north-source small{font-size:13px;color:#866b50;}
+.gg-north-source em{font-size:12px;font-style:normal;color:#824232;}

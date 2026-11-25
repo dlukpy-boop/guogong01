@@ -25,3 +25,10 @@
 - https://dlukpy-boop.github.io/guogong01/ （手機和電腦）
 - 1905 → 1912 → 1914 → 1919；全景 → 共產黨分支；1924三政策與1928對照互動。
 - 下載資產的 HTTP 200；在 DevTools Console 無本地模組載入失敗。
+
+
+### 2026-11-25 改版QA
+- Chromium內聯檢驗36個導航狀態、JavaScript無執行錯誤；史料卡放大／關閉成功。
+- 修正原程式 `overflow:hidden` 令 stage 意外成為可捲動容器的問題，修正後位移檢查均保持 x=0。
+- 本地透過完整HTML+CSS+JS+圖片data URI進行視覺測試；本運行環境禁止本機HTTP/file載入，故未能透過真正GitHub Pages域名全面覆測。
+- 北伐地圖圖層路線僅示意，並未精確重現軍事地圖所有支路。
